@@ -41,7 +41,6 @@ def main():
             for i in range(i,11): # Repeats the loop from 1 through N
                 result = N * i    
                 print(N,"x",i,"=",result)
-                        
 
         elif(user_input == 3):
             row = int(input("Enter a number of rows to print triangle of numbers: ")) # Asks for the user input
@@ -52,7 +51,7 @@ def main():
                     print(j,end="")
                 print()
 
-        elif(user_input ==4 ): # If the user inputs 4, the program ends
+        elif(user_input == 4): # If the user inputs 4, the program ends
             flag = False
             print("Goodbye!")
 
