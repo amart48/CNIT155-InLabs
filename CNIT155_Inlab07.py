@@ -62,6 +62,6 @@ def main():
             else:
                 print("Invalid input.\nPress Y or N, case insensitive:")
 
-displayMyInfo()
+displayMyInfo() # Calls the displayMyInfo() function
 main()
 
