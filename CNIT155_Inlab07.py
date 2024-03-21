@@ -39,7 +39,7 @@ def computePerimeter(a,b,c):
 
 def main():
     flag = True # Sets the flag to true to repeat the main function
-    while flag ==True:
+    while flag == True:
         a = float(input("Enter the length of side a of a triangle: ")) # Prompts the user to choose a float for the a variable
         b = float(input("Enter the length of side b of a triangle: ")) # Prompts the user to choose a float for the b variable
         c = float(input("Enter the length of side c of a triangle: ")) # Prompts the user to choose a float for the c variable
