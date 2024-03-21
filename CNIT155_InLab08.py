@@ -32,11 +32,11 @@ def main():
 
     # Print student names and GPAs
     print("================= List ==================")
-    print("        \tName    \tGPA")
-    print("        -------              ---------")
+    print("\t  Name\t\t  GPA")
+    print("\t-------\t\t---------")
     # Loop to print student names and student GPAs
     for name, gpa in zip(studentNames, studentGPAs):
-        print(f"        \t{name}    \t{gpa}")
+        print(f"\t  {name} \t\t  {gpa}")
         
     # Find the sum of entered GPAs
     totalGPA = sum(studentGPAs)
