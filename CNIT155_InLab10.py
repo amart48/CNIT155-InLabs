@@ -20,7 +20,7 @@ def main():
         # Read scores.txt as a list
         scores = inputFile.readlines()
 
-        # Loop to turn the scores into float starting from index 3 
+        # Converting score into floats 
         scores = [float(score) for score in scores[3:] if score.strip().replace('.', '').isdigit()]
 
         # Print the scores
