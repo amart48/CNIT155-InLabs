@@ -44,7 +44,7 @@ def main():
         file.close()
         outputFile.close()
 
-    # If the file cannot be read...
+    # If the file cannot be opened...
     except FileNotFoundError:
         print("The program failed to opeen the file. Make sure of followings:")
         print("\t\tThe file to read is located in the same folder where this program is!")
