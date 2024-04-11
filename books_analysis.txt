@@ -1,0 +1,43 @@
+====== Analysis Results ======
+
+1. The number of books in the file: 20
+
+2. Titles of Books which have more than 2 words: 
+
+The hill we climb
+the little PRINCE
+harry potter and the sorcerer's stone
+the dream of the red chamber
+The da Vinci code
+harry POTTER and the Half-Blood Prince
+harry POTTER and the Prisoner of Azkaban
+harry POTTER and the Order of the Phoenix
+one Hundred Years of Solitude
+harry POTTER and the Deathly Hallows
+tHINK and Grow Rich
+The Lion, the Witch and the Wardrobe
+SHE: A History of Adventure
+the loRD oF tHE Rings
+
+3. Organized Book Titles :
+
+The Hill We Climb
+Borken Horses
+Becoming
+The Little Prince
+Harry Potter And The Sorcerer'S Stone
+The Dream Of The Red Chamber
+The Hobbit
+The Da Vinci Code
+Harry Potter And The Half-Blood Prince
+Harry Potter And The Prisoner Of Azkaban
+Harry Potter And The Order Of The Phoenix
+Charlotte’S Web
+Black Beauty
+One Hundred Years Of Solitude
+Harry Potter And The Deathly Hallows
+Think And Grow Rich
+The Alchemist
+The Lion, The Witch And The Wardrobe
+She: A History Of Adventure
+The Lord Of The Rings
