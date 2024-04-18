@@ -31,12 +31,13 @@ def main():
         try:
             # Reading the user input into steps
             steps = int(input(f"Enter the number of steps for day {day}: "))
+            # If the user inputs anything other than a positive integer
             if steps < 0:
                 raise ValueError
             else:
                 stepsList.append(steps)
                 day +=1
-        # Handle user inputs if they are not a 
+        # Handle user inputs if they are not a positive integer
         except ValueError:
             print(f"\nException: Wrong Value Entered.\nPlease enter an integer in a correct format!\n")
 
@@ -44,8 +45,9 @@ def main():
     miles_walked = StepsToMiles(stepsList)
 
     # Display miles walked for each day
-    print("\n*** The number of miles you walked this week ***:")
+    print("\n*** The number of miles you walked this week ***")
     day = 1
+    # Loop to print the day and how many miles were walked each day
     for miles in miles_walked:
         print(f"Day {day} : {miles:.2f} miles")
         day +=1
